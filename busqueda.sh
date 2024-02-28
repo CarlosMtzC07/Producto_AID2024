@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#2
 path="/var/log/"
 word="warning"
 
