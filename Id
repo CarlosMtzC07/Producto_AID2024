@@ -1,3 +1,2 @@
 #!/bin/bash
-
-csvgrep -c LUGAR -m Constitucion Accidentes_ags_2021.csv | csvcut -c ID,FERROCARRI | column -t
+awk -F ',' '$45 =="CONSTITUCION" {print $1, $14}' Accidentes_ags_2021.csv
