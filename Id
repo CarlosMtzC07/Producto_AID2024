@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# AsegÃºrate de tener instalado csvkit: sudo apt-get install csvkit
+
+# Filtra los datos utilizando csvkit y muestra solo ID y FERROCARRI para LUGAR igual a Constitucion
+csvgrep -c LUGAR -m Constitucion Accidentes_ags_2021.csv | csvcut -c ID,FERROCARRI | column -t
