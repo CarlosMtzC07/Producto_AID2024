@@ -1,7 +1,7 @@
 #!/bin/bash
 
 path="/var/log/"
-w="Karen_Martinez"
+w="Karen_Martinez" #¿Por que tiene el nomnre de Karen?
 
 
 cd "$path"

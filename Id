@@ -1,2 +1,0 @@
-#!/bin/bash
-awk -F ',' '$45 =="CONSTITUCION" {print $1, $14}' Accidentes_ags_2021.csv
